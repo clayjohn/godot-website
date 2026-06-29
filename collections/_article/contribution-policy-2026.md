@@ -4,7 +4,7 @@ excerpt: "Godot is growing fast, here is how we are dealing with the huge increa
 categories: ["news"]
 author: Godot Foundation
 image: /storage/blog/covers/godot-foundation-update-2024.webp
-date: 2026-06-25 18:00:00
+date: 2026-06-30 18:00:00
 ---
 
 Over the last several years we have become overwhelmed by the large number of
@@ -53,24 +53,24 @@ and maintainers have been discussing a new policy for several months. Our focus 
 - **Increasing the incentive to review PRs.**
     - PR review is the largest bottleneck in the engine right now. We need to ensure that people who choose to review PRs feel their time is well spent.
 
-Our general [contributing
-policy](https://contributing.godotengine.org/en/latest/engine/guidelines/index.html)
-will be amended to include a prohibition on new features or significant
+We will amend our [contributing
+policy](https://contributing.godotengine.org/en/latest/pull_requests/pull_request_guidelines.html)
+to include a prohibition on new features or significant
 re-factoring from new contributors without explicit permission from maintainers.
 This ensures that new contributors take the time to learn the codebase and
 engage with maintainers to build trust by working on bug fixes and documentation
 before diving into significant projects. We consider a new contributor to be
 someone with 3 or fewer merged pull requests.
 
-Shortly we will amend our AI policy to align with the values described above. Our
-amended AI policy will include that:
+Shortly we will also amend our contributing policy to align with the values described above. Our
+amended policy will include that:
 - **No autonomous AI agent use or vibe coding**
     - This already leads to an auto-ban from our Github repository and will continue to do so.
 - **No use of AI to generate substantial pieces of code**
     - We require all code to be human authored. AI assistance should be limited to menial things (like code completion, regex, or find and replace).
     - If you do use AI in some capacity to author code, you must disclose it in the PR discussion.
-- **Absolutely no AI generated text in human-to-human communication**
-    - This is basic principle of respect. Our maintainers are volunteering their time, so please be respectful.
+- **No AI generated text in human-to-human communication**
+    - When our maintainers volunteer their time to review your issue, PR, or proposal, they do not want to talk to a machine. This is a basic principle of respect
     - Machine translations are still acceptable as long as the original content was written by a human.
 - **All PRs must be reviewed and approved by a human before merging**
     - This is the case already, but we will make it more explicit in our policy. 
